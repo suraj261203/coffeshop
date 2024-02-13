@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DUA COFFEE SHOP☕️☕️</title>
+    <link rel="stylesheet" href="/shops.css"/>
+</head>
+<body>
+    <header align="right">
+        <a href="/page.html" ><img src="dua.jpg" align="left" width="5%"></a>
+        <h3 align="left">DUA COFFEE SHOP &COPY;</h3>
+        <div align="right" style="color: black;"><i>SOCIAL MEDIA</i></div>
+        <a href="https://twitter.com/dua_cipete?lang=en"><img src="x.jpg.png" width="2%"></a><a href="https://www.instagram.com/duacoffee/"><img src="insta.jpg" width="2%"></a>
+        <a href="https://www.youtube.com/@DuaCoffee"><img src="y.jpg" width="2%"></a>
+    </header>
+    <div class="flex-container">
+        <div><i><button class="dropbtn"><a href="/page.html">HOME</a></button></i></div>
+        <div class="divcls">
+            <i><button class="dropbtn">MENU</button></i>
+            <div class="cls">
+                <a href="/coffee.html"><i>COFFEE</i></a>
+                <a href="/bakery.html"><i>BAKERY</i></a>
+                <a href="/pasteries.html"><i>PASTERIES</i></a>
+                <a href="/sides.html"><i>SIDES</i></a>
+                <a href="/snacks.html"><i>SNACKS</i></a>
+            </div>
+        </div>
+        <div><i><button class="dropbtn"><a href="/info.html">ABOUT US</a></button></i></div>
+        <div><i><button class="dropbtn"><a href="/customer.html">CUSTOMER CARE</a></button></i></div> 
+        <div><i><button class="dropbtn"><a href="/locate.html">LOCATE US</a></button></i></div> 
+    </div>
+    <form style="margin-bottom: 2%;">
+        <table border="2" width="600px" height="200px" align="center">
+            <div><h1 align="center"><b>Sign in or Create account</b></h1></div>
+            <td  style="background-color: white; border-color: transparent;">
+                <div style="padding: 20px; line-height: 100px; " > 
+                    <i>*indicates required field</i>
+                    <input type="text" align="center" style="align-items:center; width: 90%; height: 10%; font-size: 20px; padding:2%; border-radius: 25px; " placeholder="*Username or email address" required id="email"/></br>
+                    <input type="password" align="center" style="align-items:center; width: 90%; height: 10%; font-size: 20px; padding:2%; border-radius: 25px; " placeholder="*Password" required id="password"/>
+                    <div><p align="inline" style="line-height: 30px;"><input type="checkbox" style="border-radius: 25px; width: 20px; height: 20px; margin:2%;" required>Accept, terms & conditions<a style="margin: 1%;" href="">Details</a></p></div>
+                    <i><a href="" style="margin-right:60%; " >Forgot password?</a></i>
+                    <button onclick="authenticate()" class="cd"  style="align-items:right; font-size:15px; border-radius:25px; ">SIGN IN</button><br>
+                </div>   
+            </td>
+        </table>
+    </form>
+    <div class="fot" align="center">
+        <b style="color: black;" >JOIN DUACOFFEE® REWARDS</b>
+        <em>Join DuaCoffee® Rewards to earn free food and drinks, get free refills, pay and order with your phone, and more.</em>
+        <a href="/signup.html"><button class="cd" style="font-size:15px; border-radius:25px;" >JOIN US</button></a>
+    </div>
+    <footer class="ids" border="3"  >
+        <a href="#">⬆️</a>
+        <a href="/info.html"><i>about us</i></a>
+        <a href="/coffee.html"><i>coffee</i></a>
+        <a href="/bakery.html"><i>bakery</i></a>
+        <a href="/pasteries.html"><i>pasteries</i></a>
+        <a href="/sides.html"><i>sides</i></a>
+        <a href="/customer.html"><i>customer care</i></a>
+        <a href="/locate.html"><i>locate us</i></a>
+        <a href="/signup.html"><i>sign up</i></a>
+        <a href="https://twitter.com/dua_cipete?lang=en"><i>twitter x</i></a>
+        <a href="https://www.instagram.com/duacoffee/"><i>instagram</i></a>
+        <a href="https://www.youtube.com/@DuaCoffee"><i>youtube</i></a>
+    </footer>
+    <p style="color: black;"><i>dua coffee shop&copy;</i></p>
+
+    <script>
+        function authenticate() {
+            // Retrieve entered email and password
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            
+            // Here, you would compare the entered email and password with your local storage or database
+            // For demonstration purposes, let's assume the correct email and password are "example@example.com"
+            // and "password123" respectively
+            var correctEmail = "suraj26@gmail.com";
+            var correctPassword = "password123";
+            
+            // Check if the entered credentials match the correct ones
+            if (email === correctEmail && password === correctPassword) {
+                // Redirect to the next page (replace "next_page.html" with the actual URL of your next page)
+                alert('Login sucessfullys')
+            } else {
+                // If the credentials don't match, display an error message (you can customize this part as needed)
+                alert("Incorrect email or password. Please try again.");
+            }
+        }
+    </script>
+</body>
+</html>

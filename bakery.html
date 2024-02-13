@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MENU</title>
+        <style>
+            body{
+                background-image: url('backs.jpg.avif');
+                background-size:cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 200vh;
+                position: relative;
+            }
+            .c1{
+                margin-top: 0%;
+                margin-left: 70%;
+                text-align: center;
+            }
+            table{
+                margin-top: 7%;
+                border-radius: 25px;
+            }
+            th{
+                display: grid;
+                grid-template-columns:auto auto;
+                grid-template-rows: auto auto auto ;
+                border: 0cap;
+                margin-right: 65%;
+                padding-bottom: 10%;
+                padding-top: 20%;
+
+            }
+            .rr{
+                display: flex;
+                justify-content: left;
+
+            }
+            .vv{
+                display: grid;
+                grid-template-columns: auto auto;
+                padding-left: 20%;
+                justify-content: space-around;
+            }
+            .zom {
+                display: flex;
+                padding-left: 80px;
+                padding-top: 70px;
+                padding-right: 290px;
+                padding-bottom: 20px;
+                transition: transform .2s; 
+                width: 100px;
+                height: 250px;
+                margin: 0 auto;
+                
+              }
+              .ids{
+                margin-top: 3%;
+                display: grid;
+                position: relative;
+                justify-content: space-around;
+                grid-template-columns: auto auto auto;
+                background-color:white;
+                height: 16vh;
+                width: 100%;
+                border-radius: 10px;
+                border-color: black;
+                padding-top: 20px;
+            }
+            .flex-container{
+                background-color: transparent;
+                display:flex;
+                justify-content: space-evenly;
+            }
+            .flex-container>div{
+                margin:20px;
+                padding: 10PX;
+                color:black;
+                justify-content: space-evenly;
+            }
+            .dropbtn{
+                background-color: transparent;
+                color: black;
+                
+                padding: 15px;
+                font-size: 15px;
+                border: none;
+                border-radius: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header align="right">
+            <a href="/page.html" ><img src="dua.jpg" align="left" width="5%"></a>
+            <h3 align="left">DUA COFFEE SHOP &COPY;</h3>
+            <div align="right" style="color: black;"><i>SOCIAL MEDIA</i></div>
+            <a href="https://twitter.com/dua_cipete?lang=en"><img src="x.jpg.png" width="2%"></a><a href="https://www.instagram.com/duacoffee/"><img src="insta.jpg" width="2%"></a>
+            <a href="https://www.youtube.com/@DuaCoffee"><img src="y.jpg" width="2%"></a>
+        </header>
+        <h1 align="center" style="font-size:80px;">MENU</h1>
+        <div class="flex-container">
+            <div><i><button class="dropbtn"><a href="/page.html">HOME</a></button></i></div>
+            <div><i><button class="dropbtn"><a href="/info.html">ABOUT US</a></button></i></div>
+            <div><i><button class="dropbtn"><a href="/customer.html">CUSTOMER CARE</a></button></i></div> 
+            <div><i><button class="dropbtn"><a href="/locate.html">LOCATE US</a></button></i></div> 
+            <div><i><button class="dropbtn"><a href="/signinn.html">SIGN IN</a></button></i></div>
+        </div>
+        
+        <h1 align="center" style="padding-left:20%; font-size:40px">Bakery</h1>
+        <div class="rr">
+            <table border="2" width="20%" height="33%">
+                <tr>
+                    <aside> 
+                        <th>
+                            <h1 class="c1">Filters</h2>
+                        </th>
+                        
+                    
+                    <th align="left">
+                        <input type="radio" name="Coffee" onclick="myfunc()" style="width: 100%; height:85%;">
+                        <label style="padding-left: 40%; font-size:25px" for="Coffee">Coffee</label>
+                    </th>       
+                    <th align="left">
+                        <input type="radio" name="Coffee" onclick="myfunc1()" style="width: 100%; height:85%;">
+                        <label style="padding-left: 40%; font-size:25px" for="Coffee">Pasteries</label>
+                    </th>   
+                    <th align="left">
+                        <input type="radio" name="Coffee" onclick="myfunc2()" style="width: 100%; height:85%;">
+                        <label style="padding-left: 40%; font-size:25px" for="Coffee">Snacks</label>
+                    </th>   
+                </tr>
+            </aside>
+            </table>
+            <section>
+                <div class="vv">
+                    <div class="zom">
+                        <div>
+                            <img align="right" width="250px" height="250px" style="border-radius: 50px;" src="aff.jpg">
+                            <h2 align="center"><i>AFFOGATO</i></h2>
+                        </div>
+                    </div>
+                    <div class="zom">
+                        <div>
+                            <img align="right" width="250px" height="250px" style="border-radius: 50px;" src="irish.webp">
+                            <h2 align="center"><i>IRISH COFFEE</i></h2>
+                        </div>
+                       
+                    </div>
+                    <div class="zom">
+                        <div>
+                            <img align="right" width="250px" height="250px" style="border-radius: 50px;" src="irish.webp">
+                            <h2 align="center"><i>IRISH COFFEE</i></h2>
+                        </div>
+                    </div>
+                    <div class="zom">
+                        <div>
+                            <img align="right" width="250px" height="250px" style="border-radius: 50px;" src="irish.webp">
+                            <h2 align="center"><i>IRISH COFFEE</i></h2>
+                        </div>
+                        
+                    </div>
+                    <div class="zom">
+                        <div>
+                            <img align="right" width="250px" height="250px" style="border-radius: 50px;" src="irish.webp">
+                            <h2 align="center"><i>IRISH COFFEE</i></h2>
+                        </div>
+                    </div>
+                    <div class="zom">
+                        <div>
+                            <img align="right" width="250px" height="250px" style="border-radius: 50px;" src="irish.webp">
+                            <h2 align="center"><i>IRISH COFFEE</i></h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script>
+            function myfunc(){
+                window.location.href="coffee.html";
+            }
+            function myfunc1(){
+                window.location.href="pasteries.html";
+            }
+            function myfunc2(){
+                window.location.href="snacks.html";
+            }
+        </script>
+        <footer class="ids" border="3"  >
+            <a href="#">⬆️</a>
+            <a href="/info.html"><i>about us</i></a>
+            <a href="/coffee.html"><i>coffee</i></a>
+            <a href="/bakery.html"><i>bakery</i></a>
+            <a href="/pasteries.html"><i>pasteries</i></a>
+            <a href="/sides.html"><i>sides</i></a>
+            <a href="/customer.html"><i>customer care</i></a>
+            <a href="/locate.html"><i>locate us</i></a>
+            <a href="/signup.html"><i>sign up</i></a>
+            <a href="https://twitter.com/dua_cipete?lang=en"><i>twitter x</i></a>
+            <a href="https://www.instagram.com/duacoffee/"><i>instagram</i></a>
+            <a href="https://www.youtube.com/@DuaCoffee"><i>youtude</i></a>
+            
+        </footer>
+        <p style="color: black;"><i>dua coffee shop&copy;</i></p>
+    </body>
+</html>

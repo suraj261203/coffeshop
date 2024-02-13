@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MENU</title>
+        <style>
+            body{
+                background-image: url('backs.jpg.avif');
+                background-size:cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 120vh;
+                position: relative;
+            }
+            .c1{
+                margin-left: 7%;
+            }
+            table{
+                border-radius: 25px;
+            }
+            th{
+                display: grid;
+                grid-template-columns:auto auto;
+                grid-template-rows: auto auto auto ;
+                border: 0cap;
+                margin-right: 65%;
+                padding-bottom: 10%;
+                padding-top: 20%;
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1 align="center">MENU</h1>
+        <table border="2" width="20%" height="33%">
+            <tr>
+                <aside> 
+                    <h1 class="c1">Filters</h2>
+                </aside>
+                <th align="left">
+                    <input type="radio" name="Coffee" onclick="myfunc()" style="width: 100%; height:85%;">
+                    <label style="padding-left: 40%; font-size:25px" for="Coffee">Bakery</label>
+                </th>       
+                <th align="left">
+                    <input type="radio" name="Coffee" onclick="myfunc1()" style="width: 100%; height:85%;">
+                    <label style="padding-left: 40%; font-size:25px" for="Coffee">Pasteries</label>
+                </th>   
+                <th align="left">
+                    <input type="radio" name="Coffee" onclick="myfunc2()" style="width: 100%; height:85%;">
+                    <label style="padding-left: 40%; font-size:25px" for="Coffee">Snacks</label>
+                </th>   
+            </tr>
+        </table>
+        <main>
+            
+        </main>
+        <script>
+            function myfunc(){
+                window.location.href="bakery.html";
+            }
+            function myfunc1(){
+                window.location.href="pasteries.html";
+            }
+            function myfunc2(){
+                window.location.href="snacks.html";
+            }
+        </script>
+    </body>
+</html>

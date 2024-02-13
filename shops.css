@@ -1,0 +1,238 @@
+body{
+    
+    background-image: url('backs.jpg.avif');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;
+    position: relative;
+    
+}
+.flex-container{
+    background-color: transparent;
+    display:flex;
+    justify-content: space-evenly;
+}
+@media only screen and (max-width: 888px){
+    .flex-container{
+        background-color: transparent;
+        display:grid;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+    }
+}
+.flex-container>div{
+    margin:20px;
+    padding: 10PX;
+    color:black;
+    justify-content: space-evenly;
+}
+h3{
+    color:black;
+}
+footer{
+    display: grid;
+    position: relative;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto;
+    background-color:rgb(191, 190, 189);
+    height: 16vh;
+    width: 100%;
+    border-radius: 10px;
+    border-color: black;
+    padding-top: 20px;
+}
+.ddd{
+    background-image: url('cc.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+.c1{
+    display: flex;
+    position: relative;
+    grid-template-rows: auto ;
+    justify-content: space-around;
+    
+}
+@media only screen and (max-width: 888px){
+    .c1{
+        display: grid;
+        position: relative;
+        grid-template-rows: auto ;
+        justify-content: space-around;
+    }
+    
+}
+.clls{
+    display: flex;
+    justify-content:space-around;
+}
+@media only screen and (max-width: 888px){
+    .clls{
+        display: grid;
+        justify-content:space-around;
+        position: relative;
+    }
+}
+.dropbtn{
+    background-color: transparent;
+    color: black;
+    
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+}
+.divcls{
+    position: relative;
+    display: inline-block;
+}
+.cls{
+    display: none;
+    position:absolute;
+    background-color: whitesmoke;
+    min-width: 160px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2) ;
+    z-index: 1;
+}
+@media only screen and (max-width: 888px){
+    .cls{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: whitesmoke;
+        min-width: 160px;
+        box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2) ;
+        z-index: 1;
+    }
+}
+.cls a{
+    color: black;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    
+}
+.cls a:hover{
+    border-radius: 20px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2) ;
+}
+.divcls:hover .cls{
+    display: block;
+    border-radius: 20px;
+}
+.cls:hover .dropbtn{
+    background-color:transparent;
+}
+.zoom {
+    display: flex;
+    padding-left: 80px;
+    padding-top: 100px;
+    padding-right: 290px;
+    padding-bottom: 200px;
+    transition: transform .2s; 
+    width: 100px;
+    height: 250px;
+    margin: 0 auto;
+    
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5);
+  }
+  .cols{
+    position: relative;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto;
+  }
+  @media only screen and (max-width:888px) {
+    .cols{
+        position: relative;
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: auto auto ;
+      }
+
+  }
+  @media only screen and (max-width: 758px) {
+    .cols{
+        position: relative;
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: auto ;
+      }
+
+  }
+ .jus{
+    display: flex;
+    justify-content: space-around;
+}
+table{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-color: transparent;
+}
+.phone{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.vvv{
+    position: relative;
+    background-image: url('backs.jpg.avif');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    
+}
+.vvvv{
+    position: relative;
+    height: 20vh;
+    background-image:none;
+    background-color: rgb(237, 228, 217);
+}
+.fuck{
+    position: relative;
+    background-image: url('backs.jpg.avif');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+.jpds{
+    border-radius: 50%; 
+    width: 10%; 
+    height: 100px; 
+    aspect-ratio: 3/2;
+}
+.cd:hover{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2) ;
+}
+.ids{
+    display: grid;
+    position: relative;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto;
+    background-color:white;
+    height: 16vh;
+    width: 100%;
+    border-radius: 10px;
+    border-color: black;
+    padding-top: 20px;
+}
+.fot{
+    display: grid;
+    padding-left: 39%;
+    grid-template-columns: auto;
+    color: black; 
+    width: 30ch; 
+    line-height: 30px;
+    margin-bottom: 5%;
+}
